@@ -35,7 +35,7 @@ jobs:
           context: ./QingLong
           push: true
           tags: |
-            ghcr.io/${{ steps.lower-repo.outputs.repository }}/jianguoyun:latest
+            ghcr.io/${{ steps.lower-repo.outputs.repository }}/huggingface:latest
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=QingLong Docker Image
